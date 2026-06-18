@@ -1,0 +1,55 @@
+<!-- Alumni Stories Section -->
+<section id="alumni" class="py-5" style="background-color: #fff3e0;">
+  <div class="container" data-aos="fade-up">
+    <div class="text-center mb-4">
+      <i class="fas fa-user-tie fa-3x mb-3" style="color: #ef6c00;"></i>
+      <h2 class="fw-bold" style="color: #ef6c00;">Alumni Stories</h2>
+    </div>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body text-center">
+            <img src="./images/alumni-demo.jpg" alt="Alumni 1" class="rounded-circle mb-3" style="width:100px; height:100px; object-fit:cover;">
+            <h5>Rahim Uddin</h5>
+            <p>CEO, Textile Innovators Ltd.</p>
+            <p class="small">“The department equipped me with both technical skills and real-world insights to succeed globally.”</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body text-center">
+            <img src="./images/alumni-demo.jpg" alt="Alumni 2" class="rounded-circle mb-3" style="width:100px; height:100px; object-fit:cover;">
+            <h5>Sabina Akter</h5>
+            <p>Research Scientist, Green Textiles</p>
+            <p class="small">“The faculty’s guidance was instrumental in shaping my career in sustainable textiles.”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="py-5" style="background-color: #e8f5e9;">
+  <div class="container" data-aos="fade-up">
+    <div class="text-center mb-4">
+      <i class="fas fa-comments fa-3x mb-3" style="color: #2e7d32;"></i>
+      <h2 class="fw-bold" style="color: #2e7d32;">Testimonials</h2>
+    </div>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-6">
+        <blockquote class="blockquote">
+          <p>"The curriculum and practical training gave me confidence and skills to excel in my job."</p>
+          <footer class="blockquote-footer">Tanvir Hossain, Graduate 2022</footer>
+        </blockquote>
+      </div>
+      <div class="col-md-6">
+        <blockquote class="blockquote">
+          <p>"The faculty members are very supportive and always encourage innovation."</p>
+          <footer class="blockquote-footer">Farhana Rahman, Postgraduate 2023</footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>

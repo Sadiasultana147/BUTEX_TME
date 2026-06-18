@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Department of TME</title>
+  <link rel="icon" type="image/webp" href="./images/logo.webp" />
+  <!-- ==================== CSS LINKS ==================== -->
+  <!-- AOS CSS -->
+  <link href="aos/dist/aos.css" rel="stylesheet" />
+  <!-- Bootstrap -->
+  <link href="./bootstrap/bootstrap.min.css" rel="stylesheet" />
+  <!-- FontAwesome -->
+  <link href="./fontawesome/css/all.min.css" rel="stylesheet" />
+  <!-- Custom Styles -->
+  <link href="./css/style.css?v=1.0.1" rel="stylesheet" />
+</head>
+
+<body>
+<header>
+	
+<!-- Navbar with 2 rows -->
+<nav class="navbar navbar-expand-lg navbar-dark flex-column fixed-top">
+  <div class="container d-flex justify-content-between align-items-center">
+    <!-- Logo and texts (upper row) -->
+    <a href="index.html" class="navbar-brand">
+      <img src="./images/logo.webp" alt="Logo" />
+      <div class="brand-text">
+        <div class="line1"><em>Department of Textile Materials Engineering</em></div>
+        <div class="line2">Bangladesh University of Textile (BUTEX)</div>
+      </div>
+    </a>
+<!-- Scrolling Notice Bar -->
+    <div class="notice-wrapper flex-grow-1 mx-4 overflow-hidden position-relative">
+      <div class="notice-text">
+        ⚠️ <strong>Important Notice:</strong> Admission for Fall 2025 is now open! Apply before Sept 30. Visit admission.butex.edu.bd for details.
+      </div>
+    </div>
+    <!-- right top area -->
+    <div class="d-none d-lg-block text-white" style="font-weight: 600; font-size: 0.9rem;">
+      Contact: +880 1918-422394 | head@tme.butex.edu.bd
+    </div>
+  </div>
+
+  <!-- Menu row below -->
+  <div class="navbar-menu-row w-100">
+    <div class="container">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="whoWeAreDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              About Us
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="whoWeAreDropdown">
+              <li><a class="dropdown-item" href="about.html">About</a></li>
+              <li><a class="dropdown-item" href="mission-vision.html">Mission & Vision</a></li>
+              <li><a class="dropdown-item" href="history.html">History</a></li>
+              <li><a class="dropdown-item" href="message.html">Message From Head</a></li>
+			  <li><a class="dropdown-item" href="message.html">Career</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="academicDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Academic
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="academicDropdown">
+              <li><a class="dropdown-item" href="undergraduate.html">Undergraduate Program</a></li>
+              <li><a class="dropdown-item" href="curriculum.html">Curriculum Structure</a></li>
+              <li><a class="dropdown-item" href="admission.html">Admission Requirements</a></li>
+              <li><a class="dropdown-item" href="calendar.html">Academic Calendar</a></li>
+              <li><a class="dropdown-item" href="routine.html">Class Routine</a></li>
+              <li><a class="dropdown-item" href="exam.html">Exam Schedule</a></li>
+              <li><a class="dropdown-item" href="results.html">Results</a></li>
+            </ul>
+          </li>
+		  <li class="nav-item dropdown">
+		  <a
+			class="nav-link dropdown-toggle"
+			href="#"
+			id="whoWeAreDropdown"
+			role="button"
+			data-bs-toggle="dropdown"
+			aria-expanded="false"
+		  >
+			Lab Facilities
+		  </a>
+		  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="whoWeAreDropdown">
+			<li>
+			  <a class="dropdown-item" href="lab.html">Lab Instrument List</a>
+			</li>
+			<li>
+			  <a class="dropdown-item" href="lab-tests.html">Testing Facilities for Students</a>
+			</li>
+			<li>
+			  <a class="dropdown-item" href="lab-services.html">Testing Services for Outsiders</a>
+			</li>
+		  </ul>
+		</li>
+		<li class="nav-item dropdown">
+		  <a
+			class="nav-link dropdown-toggle"
+			href="#"
+			id="whoWeAreDropdown"
+			role="button"
+			data-bs-toggle="dropdown"
+			aria-expanded="false"
+		  >
+			Faculty Members
+		  </a>
+		  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="whoWeAreDropdown">
+			<li>
+			  <a class="dropdown-item" href="lab.html">Active Faculty</a>
+			</li>
+			<li>
+			  <a class="dropdown-item" href="lab-tests.html">Officer & Staff</a>
+			</li>
+			
+		  </ul>
+		</li>
+		<li class="nav-item">
+            <a class="nav-link" href="lab.html">Notice</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="lab.html">Alumni</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="why choose.html">Why Choose Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+</header>
+
+  <main style="padding-top: 150px;">
+    <!-- VISION & MISSION SECTION -->
+    <section class="vision-mission-section py-5" style="background-color:#f8f9fa;">
+      <!-- Intro Summary with Key Values -->
+      <p class="summary-text text-center mb-5" style="max-width:900px; margin:auto; font-size:1.1rem; color:#40525a;">
+        The Department of Textile Materials Engineering (DoTME) is dedicated to advancing textile sciences through education, research, and industry collaboration.
+        We foster innovation, sustainability, and excellence, producing graduates ready to impact the textile industry globally.
+      </p>
+
+      <!-- Vision Section -->
+      <div class="glass-card vision-section d-flex flex-wrap align-items-center mb-5 p-4"
+        style="background:white; border-radius:15px; box-shadow:0 4px 20px rgba(0,0,0,0.1);">
+
+        <!-- Image (fade from left) -->
+        <div class="image-content col-md-5 d-flex justify-content-center" data-aos="fade-right">
+          <img src="./images/vision.png" alt="Vision Illustration" class="img-fluid rounded vision-img" />
+        </div>
+
+        <!-- Text (fade from right) -->
+        <div class="text-content col-md-7 ps-md-4 mt-4 mt-md-0" data-aos="fade-left">
+          <h2 class="section-title mb-3" style="color:#0a9396;">Vision</h2>
+          <p class="summary mb-3" style="color:#40525a;">
+            <i class="fa-solid fa-eye" style="color:#0a9396; margin-right:8px;"></i>
+            To be a globally recognized center of excellence in textile materials engineering, advancing knowledge through innovation, research, and education.
+          </p>
+          <ul style="color:#40525a;">
+            <li><strong>Academic Excellence:</strong> Deliver world-class education to produce skilled, innovative textile engineers.</li>
+            <li><strong>Research Leadership:</strong> Pioneer groundbreaking research in textile material chemistry and advanced functional textiles.</li>
+            <li><strong>Industry Impact:</strong> Drive technology transfer and sustainable solutions for the textile sector.</li>
+          </ul>
+          <blockquote
+            style="border-left:4px solid #0a9396; padding-left:16px; font-style: italic; color:#40525a; margin: 20px 0;">
+            “Empowering innovation and sustainable progress in textile materials science.”
+          </blockquote>
+        </div>
+      </div>
+
+      <!-- Mission Section -->
+      <div class="glass-card mission-section d-flex align-items-center mb-5 p-4"
+        style="background:white; border-radius:15px; box-shadow:0 4px 20px rgba(0,0,0,0.1);">
+
+        <div class="row w-100 align-items-center">
+
+          <!-- Text Content -->
+          <div class="text-content col-12 col-md-7 pe-md-4 order-1 order-md-0" data-aos="fade-right">
+            <h2 class="section-title mb-3" style="color:#0a9396;">Mission</h2>
+            <p class="summary mb-3" style="color:#40525a;">
+              <i class="fa-solid fa-bullseye" style="color:#0a9396; margin-right:8px;"></i>
+              To nurture innovation and sustainability through outcome-based education, high-impact research, and industry partnerships.
+            </p>
+            <ul style="color:#40525a;">
+              <li><i class="fa-solid fa-check-double" style="color:#8ac926; margin-right:8px;"></i> Modernizing of existing education system and curriculum through incorporating outcome-based education system and curriculum along with highly skilled academicians and staff.</li>
+              <li><i class="fa-solid fa-check-double" style="color:#8ac926; margin-right:8px;"></i> Developing adequate infrastructure facilities to enable smooth running of academic program through ensuring quality.</li>
+              <li><i class="fa-solid fa-check-double" style="color:#8ac926; margin-right:8px;"></i> Graduating talented, broadly educated engineers to explore, exploit, utilize and conserve available resources for sustainable development of Textile sector.</li>
+              <li><i class="fa-solid fa-check-double" style="color:#8ac926; margin-right:8px;"></i> Conducting fundamental and applied quality research in the field of chemical processing of textiles like wet preparation, dyeing, printing, finishing and environmental issues related to textile wet treatments.</li>
+              <li><i class="fa-solid fa-check-double" style="color:#8ac926; margin-right:8px;"></i> Developing breakthrough technologies through local and global collaboration with industries and/or other institution.</li>
+            </ul>
+          </div>
+
+          <!-- Image Content -->
+          <div class="image-content col-12 col-md-5 mt-4 mt-md-0 order-0 order-md-1 text-md-end" data-aos="fade-left">
+            <img src="./images/mission.png" alt="Mission Illustration" class="img-fluid rounded" />
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Core Values Section -->
+      <div class="glass-card text-center p-4 mb-5" data-aos="fade-up"
+        style="background:white; border-radius:15px; box-shadow:0 4px 20px rgba(0,0,0,0.1);">
+        <h2 class="section-title mb-4" style="color:#0a9396;">Our Core Values</h2>
+        <div class="row justify-content-center g-4" style="max-width: 850px; margin:auto;">
+          <div class="col-md-3 col-6">
+            <i class="fa-solid fa-lightbulb fa-3x" style="color:#ffb703;"></i>
+            <h5 class="mt-2">Innovation</h5>
+            <p>Encouraging creative ideas and technologies to advance textile science.</p>
+          </div>
+          <div class="col-md-3 col-6">
+            <i class="fa-solid fa-leaf fa-3x" style="color:#8ac926;"></i>
+            <h5 class="mt-2">Sustainability</h5>
+            <p>Promoting eco-friendly materials and processes for a better future.</p>
+          </div>
+          <div class="col-md-3 col-6">
+            <i class="fa-solid fa-users fa-3x" style="color:#0a9396;"></i>
+            <h5 class="mt-2">Collaboration</h5>
+            <p>Building strong partnerships with industry, academia, and communities.</p>
+          </div>
+          <div class="col-md-3 col-6">
+            <i class="fa-solid fa-award fa-3x" style="color:#40525a;"></i>
+            <h5 class="mt-2">Excellence</h5>
+            <p>Striving for highest standards in teaching, research, and service.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Conclusion -->
+      <p class="conclusion-section text-center mb-5" data-aos="fade-up"
+        style="max-width:900px; margin:auto; font-size:1.05rem; color:#40525a;">
+        Combining tradition with innovation, the Department of Textile Materials Engineering empowers students and researchers with the knowledge, skills, and opportunities to lead the textile industry into a sustainable and technologically advanced future.
+      </p>
+
+      <!-- Call to Action -->
+      <div class="text-center">
+        <a href="#contact" class="btn btn-lg"
+          style="background-color:#0a9396; color:white; border:none; font-weight:700; letter-spacing:1px;">
+          Join Us & Shape the Future
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================== FOOTER START ================== -->
+  <footer class="text-white">
+    <!-- Top Footer -->
+    <div class="py-5 border-bottom" style="background-color: #0a9396;">
+      <div class="container">
+        <div class="row gy-4">
+          <!-- Left: Logo + Info -->
+          <div class="col-lg-4 col-md-6 text-center text-lg-start">
+            <img src="./images/logo.webp" alt="Logo" class="mb-3" style="max-width: 60px;" />
+            <h5 class="fw-bold mb-1">Textile Materials Engineering</h5>
+            <p class="mb-2">Bangladesh University of Textile</p>
+            <p class="mb-1"><strong>Telephone:</strong> +880 1918-422394</p>
+            <p class="mb-0"><strong>E-mail:</strong> head@tme.butex.edu.bd</p>
+          </div>
+
+          <!-- About Us -->
+          <div class="col-lg-2 col-md-6">
+            <h6 class="fw-bold mb-3 text-center text-lg-start">About us</h6>
+            <hr class="footer-divider" />
+            <ul class="list-unstyled text-center text-lg-start">
+              <li><a href="#" class="footer-link">Vision & Mission</a></li>
+              <li><a href="#" class="footer-link">History</a></li>
+              <li><a href="#" class="footer-link">Awards</a></li>
+              <li><a href="#" class="footer-link">About</a></li>
+              <li><a href="#" class="footer-link">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Academics -->
+          <div class="col-lg-2 col-md-6">
+            <h6 class="fw-bold mb-3 text-center text-lg-start">Academics</h6>
+            <hr class="footer-divider" />
+            <ul class="list-unstyled text-center text-lg-start">
+              <li><a href="#" class="footer-link">Academic Calendar</a></li>
+              <li><a href="#" class="footer-link">Class Routine</a></li>
+              <li><a href="#" class="footer-link">Undergraduate Studies</a></li>
+              <li><a href="#" class="footer-link">Graduate Studies</a></li>
+            </ul>
+          </div>
+
+          <!-- Research -->
+          <div class="col-lg-2 col-md-6">
+            <h6 class="fw-bold mb-3 text-center text-lg-start">Research</h6>
+            <hr class="footer-divider" />
+            <ul class="list-unstyled text-center text-lg-start">
+              <li><a href="#" class="footer-link">Research Area</a></li>
+              <li><a href="#" class="footer-link">Faculty</a></li>
+              <li><a href="#" class="footer-link">Publication</a></li>
+            </ul>
+          </div>
+
+          <!-- Admission -->
+          <div class="col-lg-2 col-md-6">
+            <h6 class="fw-bold mb-3 text-center text-lg-start">Admission</h6>
+            <hr class="footer-divider" />
+            <ul class="list-unstyled text-center text-lg-start">
+              <li><a href="#" class="footer-link">Undergraduate</a></li>
+              <li><a href="#" class="footer-link">Postgraduate</a></li>
+              <li><a href="#" class="footer-link">PG latest admission notice</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Footer -->
+    <div class="text-center py-3 small" style="background-color: #842020;">
+      &copy; 2025 Department of Textile Materials Engineering, BUTEX, Dhaka-1208. All Rights Reserved.
+    </div>
+  </footer>
+  <!-- ================== FOOTER END ================== -->
+
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <!-- Bootstrap JS Bundle -->
+  <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+  <!-- AOS JS Bundle -->
+  <script src="./aos/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+      disable: function () {
+        return window.innerWidth < 768;
+      }
+    });
+  </script>
+
+  <script>
+    function setSelector() {
+      var tabsNewAnim = $('#navbarSupportedContent');
+      var activeItemNewAnim = tabsNewAnim.find('.active');
+      if (!activeItemNewAnim.length) return;
+
+      var activeHeight = activeItemNewAnim.innerHeight();
+      var activeWidth = activeItemNewAnim.innerWidth();
+      var itemPos = activeItemNewAnim.position();
+      $(".hori-selector").css({
+        top: activeItemNewAnim.position().top + activeHeight - 3 + "px",
+        left: itemPos.left + "px",
+        width: activeWidth + "px"
+      });
+    }
+
+    $(document).ready(function () {
+      // Auto-set active menu item based on current page URL
+      var currentPage = window.location.pathname.split("/").pop();
+      if (currentPage === "") currentPage = "index.html"; // default page
+
+      $('#navbarSupportedContent a').each(function () {
+        var linkPage = $(this).attr('href');
+        if (linkPage === currentPage) {
+          $('#navbarSupportedContent').find('.active').removeClass("active");
+          $(this).parent().addClass('active');
+
+          // If dropdown item, activate its parent dropdown menu too
+          if ($(this).hasClass('dropdown-item')) {
+            $(this).closest('.dropdown').addClass('active');
+          }
+        }
+      });
+
+      setSelector();
+
+      $("#navbarSupportedContent").on("click", "li", function () {
+        $('#navbarSupportedContent').find('.active').removeClass("active");
+        $(this).addClass("active");
+        setSelector();
+      });
+    });
+
+    $(window).on("resize", function () {
+      setTimeout(function () {
+        setSelector();
+      }, 500);
+    });
+  </script>
+</body>
+
+</html>
